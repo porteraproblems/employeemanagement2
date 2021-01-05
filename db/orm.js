@@ -13,8 +13,7 @@ class DB {
       // SELECT id, first_name, last_name FROM employee TABLE AND SELECT department name from department TABLE AND SELECT salary FROM role TABLE
       // YOUR NEED TO USE LEFT JOINS TO JOIN THREE TABLES
       // YOUR CODE HERE
-      "SELECT employee.id, employee.first_name, employee.last_name, department.name, role.salary FROM employee LEFT role ON role.id = employee.role_id LEFT JOIN department ON departmentid = role.department_id"
-    );
+      "SELECT employee.id, employee.first_name, employee.last_name, department.name, role.salary FROM employee LEFT JOIN role ON role.id = employee.role_id LEFT JOIN department ON department.id = role.department_id"    );
   }
 
   // Find all employees except the given employee id
