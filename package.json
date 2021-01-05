@@ -4,10 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "echo\"Error: no test specified\" && exit 1",
     "start": "node index"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porteraproblems/employeemanagement2.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/porteraproblems/employeemanagement2.issues"
+  },
+  "homepage": "https://github.com/porteraproblems/employeemanagement2#readme",
   "dependencies": {
     "asciiart-logo": "^0.2.6",
     "console.table": "^0.10.0",
